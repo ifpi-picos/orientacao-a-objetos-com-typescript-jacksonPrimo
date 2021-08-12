@@ -1,7 +1,7 @@
 export abstract class Employee {
-  name: string;
-  salary: number;
-  benefits: Array<string>;
+  protected name: string;
+  protected salary: number;
+  protected benefits: Array<string>;
 
   constructor(name: string, salary: number){
     this.name = name;
