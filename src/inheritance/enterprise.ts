@@ -1,10 +1,16 @@
 import { Employee } from "./employee";
 
 export class Enterprise {
-  name: string;
-  employees: Array<Employee> = [];
+  private name: string;
+  private employees: Array<Employee> = [];
   constructor(name: string){
     this.name = name;
+  }
+  getName(): string{
+    return this.name
+  }
+  getEmployees(): Array<Employee>{
+    return this.employees
   }
   public addEmployee(e: Employee){
     this.employees.push(e);
