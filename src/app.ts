@@ -1,7 +1,7 @@
-import { Employee } from "./employee";
-import { Enterprise } from "./enterprise";
-import { Pf } from "./pf";
-import { Pj } from "./pj";
+import { Employee } from "./inheritance/employee";
+import { Enterprise } from "./inheritance/enterprise";
+import { Pf } from "./inheritance/pf";
+import { Pj } from "./inheritance/pj";
 
 const enterprite1: Enterprise = new Enterprise("Pague Menos");
 const employee1: Employee = new Pf("Jackson", 1500.00, "66666666666");
